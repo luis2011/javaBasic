@@ -8,5 +8,15 @@ public class main {
 
         coche1.speedUp(50);
         System.out.println(coche1);
+
+
+        CocheElectrico cocheElectrico = new CocheElectrico();
+
+        cocheElectrico.motorElectrico ="Ejempo motor";
+        cocheElectrico.color ="Azul";
+        cocheElectrico.maker ="Ford";
+        cocheElectrico.model ="Fiesta 1.6";
+
+        System.out.println(cocheElectrico);
     }
 }
