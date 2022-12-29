@@ -1,6 +1,6 @@
 package com.tiposClases;
 
-public class Coche {
+public abstract class Coche {
     //attributes
     String color;
     String maker;
