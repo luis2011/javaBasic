@@ -22,7 +22,7 @@ public class ThorwMain {
      */
 
     private static void leerNombres() throws NameFormatException{
-
+            // throws: crear la exceptiom
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un nombre");
         while(teclado.hasNext()){
@@ -31,6 +31,7 @@ public class ThorwMain {
             if(nombre.length()< 8){
                 teclado.close();
                 throw new NameFormatException("El nombre debe contener minimo 8 caracteres");
+                //throw: lanzar la exception
             }
         }
 
