@@ -1,6 +1,7 @@
 package com.company;
 
 public class StringMain {
+   static boolean isExistent;
     public static void main(String[] args) {
 
         // la clase String
@@ -14,6 +15,7 @@ public class StringMain {
           trim()
           equals()
           compareTo()
+          charAt()
  */
 
         String mensaje=" Hola Mundo ";
@@ -48,6 +50,25 @@ public class StringMain {
         otro= "otro";
         test = "otra";
         System.out.println("otro con test" + otro.compareTo("r"));
+
+
+        // recorrer una cadena de texto
+
+        String cadena = "Mensaje DE TEX@To";
+         int comparar = cadena.length();
+
+         for (int i =0; i < cadena.length(); i++){
+                    if(cadena.charAt(i)=='@'){
+                        isExistent = true;
+                        break;
+                    }
+        }
+
+         if(!isExistent){
+             System.out.println("debe al menos colocar una arroba");
+         }
+
+
 
     }
 }
