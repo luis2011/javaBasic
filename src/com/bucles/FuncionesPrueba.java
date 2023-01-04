@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.jar.Manifest;
+package com.bucles;
 
 public class FuncionesPrueba {
 

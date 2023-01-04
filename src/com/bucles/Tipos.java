@@ -1,4 +1,4 @@
-package com.company;
+package com.bucles;
 
 public class Tipos {
     public static void main(String[] args) {

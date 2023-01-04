@@ -1,4 +1,4 @@
-package com.company;
+package com.bucles;
 
 public class StringMain {
    static boolean isExistent;
